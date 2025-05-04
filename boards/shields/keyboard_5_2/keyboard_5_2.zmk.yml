@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: keyboard_5_2
+name: keyboard_5_2
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - keyboard_5_2_left
+  - keyboard_5_2_right

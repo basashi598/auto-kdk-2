@@ -1,0 +1,14 @@
+
+if SHIELD_KEYBOARD_5_2_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "keyboard_5_2"
+
+endif
+
+if SHIELD_KEYBOARD_5_2_LEFT || SHIELD_KEYBOARD_5_2_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
